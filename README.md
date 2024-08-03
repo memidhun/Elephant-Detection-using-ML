@@ -59,7 +59,7 @@ The model and label files are included in the `model` directory. If you wish to 
 - `model/labels.txt` - The label file containing the names of the detected animals.
 
 ## Code
-The main script to run the detection is `detect_animals.py`. This script loads the model, processes the video feed from the camera, and performs the detection in real-time.
+The main script to run the detection is `main.py`. This script loads the model, processes the video feed from the camera, and performs the detection in real-time.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
