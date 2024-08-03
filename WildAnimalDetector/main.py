@@ -4,6 +4,7 @@ WildAnimalDetector - A Machine Learning project for detecting wild animals using
 Author: Midhun Mathew
 Date: April 15,2024
 License: Applied for Patents
+Contact : memidhun36@gmail.com
 
 Description:
 This script loads the pre-trained model and processes the video feed from the camera to detect wild animals in real-time.
