@@ -1,0 +1,5 @@
+opencv-python-headless==4.5.5.64
+tensorflow==2.9.1
+numpy==1.21.6
+Pillow==9.1.1
+imutils==0.5.4
