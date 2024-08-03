@@ -1,6 +1,6 @@
 # WildAnimalDetector
 
-WildAnimalDetector is a machine learning project designed to detect wild animals, such as elephants, using OpenCV and TensorFlow. This project aims to help in monitoring and protecting areas from potential animal intrusions by accurately identifying specific animals.
+WildAnimalDetector is a machine learning project designed to detect wild animals, such as elephants, using OpenCV and TensorFlow. This project aims to help in monitoring and protecting areas from potential animal intrusions by accurately identifying specific animals. Right now the model is trained only for detecting elephants but the model will be updated frequently.
 
 ## Table of Contents
 - [Introduction](#introduction)
