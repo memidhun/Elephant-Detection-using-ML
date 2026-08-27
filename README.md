@@ -3,6 +3,8 @@
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Ubuntu%20%7C%20Raspberry%20Pi%20%7C%20ESP32-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+
+
 An end-to-end, edge-AI powered wildlife monitoring and eco-friendly deterrence solution designed for forest-edge and agricultural borders. The system uses edge-optimized deep learning to detect wild animals in real time and triggers a non-lethal acetylene-gas combustion deterrent alongside long-range LoRa alerts.
 <div align="center">
   <img src="https://drive.google.com/file/d/1Wv2c09zAeAQ8S1cTwT-6d36nRJHcNyhI/view?usp=sharing" alt="Field Deployment" width="400"/>
