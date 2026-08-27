@@ -1,7 +1,12 @@
 # Automated Wildlife Monitoring & Deterrent System
-
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-Ubuntu%20%7C%20Raspberry%20Pi%20%7C%20ESP32-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-blue)
 An end-to-end, edge-AI powered wildlife monitoring and eco-friendly deterrence solution designed for forest-edge and agricultural borders. The system uses edge-optimized deep learning to detect wild animals in real time and triggers a non-lethal acetylene-gas combustion deterrent alongside long-range LoRa alerts.
-
+<div align="center">
+  <img src="https://drive.google.com/file/d/1Wv2c09zAeAQ8S1cTwT-6d36nRJHcNyhI/view?usp=sharing" alt="Field Deployment" width="400"/>
+</div>
 ---
 
 ## Technical Highlights
@@ -22,6 +27,9 @@ An end-to-end, edge-AI powered wildlife monitoring and eco-friendly deterrence s
 ---
 
 ## Architecture & System Flow
+<div align="center">
+  <img src="https://drive.google.com/file/d/1P9Jyxjw0tY9AX0epS_c3wkQHUVL4tTeK/view?usp=sharing" alt="Block Diagram"width="400"/>
+</div>
 
 The system operates across a dual-unit topology to separate edge inference from high-power physical actuation.
 
@@ -94,6 +102,17 @@ Tested on a dataset of 15,000 annotated images across 5 classes (Elephant, Tiger
 * **24V Solenoid Valve:** Controls gas release into the ignition chamber.
 * **High-Voltage Arc Generator:** Ignites accumulated acetylene gas mixture safely.
 
+## 🧪 The Deterrent Mechanism
+
+The system relies on an automated, controlled chemical reaction to produce a loud acoustic blast and flash, mimicking a gunshot without lethal projectiles. 
+
+**Reaction Equation:**
+`CaC₂ + 2H₂O → C₂H₂ (Acetylene Gas) + Ca(OH)₂`
+
+When an animal is detected, the peristaltic pump drops water onto the solid calcium carbide. The resulting acetylene gas is contained until optimal pressure is reached, at which point the ESP32 triggers the high-voltage arc generator, combusting the gas.
+
+---
+
 ---
 
 ## Repository Structure
@@ -111,24 +130,5 @@ Tested on a dataset of 15,000 annotated images across 5 classes (Elephant, Tiger
 └── README.md
 
 ```
-
----
-
-## Quick Start
-
-### 1. Prerequisites
-
-```bash
-sudo apt-get update
-sudo apt-get install -y libopencv-dev cmake build-essential
-
-```
-
-### 2. Run Inference Engine on Raspberry Pi
-
-```bash
-git clone https://github.com/yourusername/wildlife-monitoring-system.git
-cd wildlife-monitoring-system/models
-python3 inference_ncnn.py --source /dev/video0 --weights weights/lora11n.ncnn
 
 ```
